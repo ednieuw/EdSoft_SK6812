@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map for EdSoft_SK6812
+#######################################
+# Class
+#######################################
+
+EdSoft_SK6812	KEYWORD1
+
+#######################################
+# Methods and Functions
+#######################################	
+
+getPixelColor	KEYWORD2
+setBrightness	KEYWORD2
+setPixelColor   KEYWORD2
+makeRGBWcolor   KEYWORD2
+fill			KEYWORD2
+show            KEYWORD2
+getwhite        KEYWORD2
+getred          KEYWORD2
+getgreen        KEYWORD2
+getblue         KEYWORD2
+
+
+#getBrightness	KEYWORD2
+#getPin			KEYWORD2
+#numPixels		KEYWORD2
+
+
+
