@@ -1,7 +1,6 @@
 # EdSoft_SK6812
 Arduino library for SK6812 based 4-channel RGBW LEDs.<br>
-The NeoPixel library from Adafruit can also be used to drive these LEDs but is larger<br> 
-in size and for my projects only a few of its functionalities are needed.<br>
+The NeoPixel library from Adafruit can also be used to drive these LEDs but is larger in size and for my projects only a few of its functionalities are needed.<br>
 The functions are comparable with Neopixel.<br>
 The assembler source that drives WS2812 LEDs made by Tim (cpldcpu@gmail.com) was used with a few modifications.<br>
 
