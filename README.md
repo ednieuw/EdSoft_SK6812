@@ -1,8 +1,9 @@
 # EdSoft_SK6812
 Arduino library for SK6812 based 4-channel RGBW LEDs.<br>
 The NeoPixel library from Adafruit can also be used to drive these LEDs but is larger in size and for my projects only a few of its functionalities are needed.<br>
-The functions are comparable with Neopixel.<br>
+The function names are comparable with Neopixel.<br>
 The assembler source that drives WS2812 LEDs made by Tim (cpldcpu@gmail.com) was used with a few modifications.<br>
+In version V1.1.0 the pulse frequency was increased from 800 kHz to 1050 khz.<br>
 
 void     fill(RGBW RGBWColor, uint16_t FirstLed, uint16_t NoofLEDs);<br>	
 void     fill(uint32_t RGBWColor, uint16_t FirstLed, uint16_t NoofLEDs);<br>
@@ -46,3 +47,5 @@ void loop() <br>
  delay(500);<br>
 }<br>
 
+![IMG_7428](https://user-images.githubusercontent.com/12166816/135838832-021f5189-67f1-4a89-910b-3436f3430af8.JPG)<br>
+Pulse frequncy in version V1.1.0
